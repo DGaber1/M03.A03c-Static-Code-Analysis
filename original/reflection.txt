@@ -1,0 +1,18 @@
+
+# Assignment Reflection
+
+### What challenges did you encounter?
+
+The main challenge was making sure I considered all the possible triangle classifications, especially because a triangle can be both a side-based type and a right triangle. I also had to think about invalid side lengths and make sure my program handled those cases correctly.
+
+### What did you think about the requirements specification?
+
+I thought the requirements were clear and easy to follow. One part that could have been more specific was the exact format of the string the function should return, especially for right triangles. Other than that, the requirements gave me enough information to create the program.
+
+### What challenges did you encounter with the tools?
+
+I was already familiar with Python and Visual Studio Code, so setting up the programming environment was straightforward. The main tool I had to learn was pytest. I learned how to create test functions and run multiple tests from the VS Code terminal. 
+
+### How did you know you had sufficient test cases?
+
+I tested each major triangle type, different arrangements of side lengths, right triangles, and invalid inputs such as negative or impossible side lengths. I also intentionally introduced an error into my program to make sure my tests could detect it. Once I had tested the major cases and all of my tests passed after fixing the error, I felt that I had sufficient test coverage.
